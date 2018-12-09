@@ -9,9 +9,9 @@ hbs.registerHelper('getCurrentYear', () =>{
   return new Date().getFullYear();
 });
 
-app.use((req,res,next)=>{
-  console.log("hiss");
-});
+// app.use((req,res,next)=>{
+//   console.log("hiss");
+// });
 
 app.use(express.static('public'));
 
